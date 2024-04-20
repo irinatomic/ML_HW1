@@ -1,0 +1,26 @@
+1. Explain 'word2vec'
+Word2vec is a machine learning model that converts words from natural language into vectors (feature vectors). This enables computers to 'understand' the meaning of words.
+The goal is to represent semantically similar words with similar vectors. For example, the words 'king' and 'queen' would be close together in vector space.
+It is used in the field of natural language processing (NLP) such as recommending similar content, similarity-based search, developing AI conversational systems (chatbots),
+automatic text translation, etc. Word2vec enables language to be translated into a simple mathematical representation that computers understand and can manipulate.
+
+2. Gaussian vs Multinomial vs Bernoulli Naive Bayes Methods
+Gaussian:
+Data type: continuous data
+Usage: used for datasets where it is assumed that the data is normally distributed (e.g., predicting height of a person, stock prices)
+Operation principle: it is assumed that continuous values related to a class are normally distributed (Gaussian distribution). Mean and variance are used to estimate probabilities.
+
+Multinomial:
+Data type: discrete numbers / data frequency
+Usage: in text classification where properties are word frequencies (or n-grams frequencies). Used for filtering spam emails, document categorization, etc.
+Operation principle: computes the probability of each class based on the frequency of word occurrences in the text or some other property.
+
+Bernoulli:
+Data type: binary features (boolean values)
+Usage: each feature is a boolean value = presence or absence of a feature, e.g., in text classification
+Operation principle: uses Bernoulli distribution to model data
+
+3. What is linear separability? Are the data from the iris.csv dataset linearly separable (explain what is observed)?
+Linear separability refers to the ability to separate data classes using lines, planes, or hyperplanes. 
+In the iris.csv dataset, Iris-setosa is distinguishable from the other species due to smaller petal dimensions, 
+indicating potential linear separability. However, there's no clear linear separation between Iris-versicolor and Iris-virginica.
